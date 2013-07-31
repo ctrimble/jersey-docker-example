@@ -30,7 +30,7 @@ public void run() {
     System.out.println("Start");
     String baseUrl = "http://localhost:"+port;
     //ResourceConfig rc = new ResourceConfig().packages("com.xiantrimble.example.jerseydocker");
-    ResourceConfig rc = new ResourceConfig(MyResource.class);
+    ResourceConfig rc = new ResourceConfig(RootResource.class);
 
     System.out.println("Found "+rc.getClasses().size()+" classes.");
     for( Class<?> clazz : rc.getClasses() ) {
