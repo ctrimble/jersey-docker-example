@@ -1,4 +1,4 @@
-package com.xaintrimble.example.jerseydocker;
+package com.xiantrimble.example.jerseydocker;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
